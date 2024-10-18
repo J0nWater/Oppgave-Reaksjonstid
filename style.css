@@ -1,0 +1,48 @@
+
+body {
+    background-color: #ffeecc;
+    ;
+}
+#app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+div.lampContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 70px 70px 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px;
+}
+
+.lightOff {
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50% ;
+    background-color: blue;
+}
+
+.lightOn {
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50% ;
+    background-color: gold;
+}
+
+h2 {
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.reaction {
+    margin-top: 20px;
+    text-align: center;
+    font-size: x-large;
+}
